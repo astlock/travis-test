@@ -3,7 +3,8 @@
 
 language: shell
 
-- os: osx
+os:
+- osx
 osx_image: xcode8
 
 env:
