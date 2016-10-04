@@ -3,8 +3,7 @@
 
 language: shell
 
-os:
- - osx
+osx_image: xcode8
 
 env:
  global:
@@ -16,7 +15,7 @@ before_install:
 
 # Build libgit2, LibGit2Sharp and run the tests
 script:
- - ./run.sh
+ - xcodebuild -version
 
 # Notify of build changes
 notifications:
